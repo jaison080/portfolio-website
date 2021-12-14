@@ -1,188 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <title>Jaison Dennis</title>
-</head>    
-<body>
-   
-<nav>
-    <h1>JAISON DENNIS</h1>
-    <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-    </ul>
-    <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-    </button>
-</nav>
-<section class="hero" id="about">
-    <img src="images/wfh_1.svg" alt="jaison-dennis" loading="lazy" class="hero-img">
-    <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">About me</h2>
-        <p class="bio-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus inventore tempore minus nemo, iste ullam illo laboriosam maiores repudiandae quos!
-        </p>
-    </div>
-</section>
-<section class="more-about">
-    <h2>More About Me</h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum, autem deleniti cupiditate molestias quis unde quae totam porro dicta iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur  nostrum dolor minus, libero delectus praesentium perferendis
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,  consequuntur labore? Ea totam voluptas amet!
-    </p>
-</section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<section class="skills" id="skills">
-    <div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    <h2 class="skill-header">My Top Skills</h2>
-    <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-            <img src="icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
-            <img src="icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
-            <img src="icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
-        </div>
-        <div class="second-set animate__animated animate__pulse">
-            <img src="icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
-            <img src="icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card">
-            <img src="icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card">
-        </div>
-    </div>
-</section>
-<section class="projects" id="projects">
-    <div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    <h2 class="projects-title">Some of my Recent Projects</h2>
-    <div class="projects-container">
-        <div class="project-container project-card">
-            <img src="images/expenseTracker.png" alt="expense-tracker" loading="lazy" class="project-pic">
-            <h3 class="project-title">Expense Tracker</h3>
-            <p class="project-details">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-            </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-            <img src="images/netflixClone.png" alt="netflix-clone" loading="lazy" class="project-pic">
-            <h3 class="project-title">Netflix Clone</h3>
-            <p class="project-details">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-            </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-            <img src="images/greenyEarth.png" alt="greeny-earth" loading="lazy" class="project-pic">
-            <h3 class="project-title">Greeny Earth</h3>
-            <p class="project-details">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-            </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-    </div>
-</section>
-<section class="contact" id="contact">
-    <div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    <h2>Get in touch with me</h2>
-    <div class="contact-form-container">
-        <div class="contact-form">
-            <form action="https://formspree.io/f/mwkykvyn" method="POST">
-                <div class="form-control">
-                    <label for="name">Name</label>
-                    <br>
-                    <input type="text" id="name" name="sender-name" placeholder="Enter your name" class="input-field" required>
-                </div>
-                <div class="form-control">
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="email" id="email" name="sender-email" placeholder="Enter your email" class="input-field" required>
-                </div>
-                <div class="form-control">
-                    <label for="message">Message</label>
-                    <textarea id="message" cols="60" rows="10" placeholder="Enter your message" name="message" class="input-field" required></textarea>
-                </div>
-                <input type="submit" value="Submit" id="submit-btn" class="submit-btn">
-            </form>
-        </div>
-    </div>
-    <div class="socials">
-        <a href="#" target="_blank"
-          ><img
-            src="icons/icons8-twitter-circled.gif"
-            alt="Twitter"
-            loading="lazy"
-            class="socicon"
-        /></a>
-        <a href="#" target="_blank"
-          ><img
-            src="icons/icons8-instagram.gif"
-            alt="Instagram"
-            loading="lazy"
-            class="socicon"
-        /></a>
-        <a href="#" target="_blank"
-          ><img
-            src="icons/icons8-linkedin-circled.gif"
-            alt="Linkedin"
-            loading="lazy"
-            class="socicon"
-        /></a>
-        <a href="#" target="_blank"
-          ><img src="icons/icons8-github.gif" alt="Github" class="socicon"
-        /></a>
-</section>
-<i class="scroll-up" id="scroll-up"
-><img
-  src="icons/icons8-upward-arrow.gif"
-  class="socicon up-arrow"
-  alt="scroll-up"
-/></i>
-<footer>
-    <p class="copy">&copy; Copyright 2021</p>
-    <p class="copy">
-        Content with &#x2661; by
-        <a href="https://twitter.com/jaison080" target="_blank"
-          >Abhishek Kurien</a>
-          <br>
-    <p class="copy">
-      Built with &#x2661; by
-      <a href="https://twitter.com/jaison080" target="_blank"
-        >Jaison Dennis</a
-      >
-    </p>
-</footer>
-<script src="js/app.js"></script>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-</body>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Jaison Dennis</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Jaison Dennis</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Jaison</span><br> Web Designer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Jaison</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== RESUME =====-->
+            <section class="reume" id="resume">
+                <div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <h2 class="section-title">Resume</h2>
+               
+                <div class="work__container bd-grid">
+                    <a class="tab" href="assets/files/JAISON DENNIS_Ceev.pdf" >Download Resume</a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Jaison</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169;Jaison Dennis. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
