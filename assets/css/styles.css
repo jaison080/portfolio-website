@@ -249,7 +249,21 @@ img {
   transition: .3s;
 }
 
+.button1 {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.75rem 4rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  transition: .3s;
+}
+
 .button:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+.button1:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
 
