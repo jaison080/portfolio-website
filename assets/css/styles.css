@@ -284,9 +284,10 @@ img {
 }
 
 .light-mode-button {
-  position: fixed;
+  position: relative;
   padding-left: 2rem;
   background:0;
+  transform: scale(0.5);
   border: 0;
   box-sizing: border-box;
   cursor: pointer;
