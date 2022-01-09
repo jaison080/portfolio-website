@@ -38,16 +38,24 @@
                     <a href="index.html" class="nav__logo">Jaison Dennis</a>
                     
                 </div>
-                <div class="mode">
-                    <button class="button2" onclick="myFunction()">Light/Dark Mode</button>
-             
-                            <script>
-                                function myFunction() {
-                                var element = document.body;
-                                element.classList.toggle("dark");
-                                }
-                            </script>
-                </div>
+                
+                <button class="light-mode-button" onclick="myFunction()" id = "mode"> <span></span>
+                    <span></span></button>
+         
+                        <script>
+                            function myFunction() {
+                            var element = document.body;
+                            element.classList.toggle("dark");
+                            if(element.classList.contains("dark")){
+                             
+                                element.setAttribute("light-mode", "dark");
+                            }
+                            else{
+                                
+                                element.setAttribute("light-mode", "light");
+                            }
+                            }
+                        </script>
 
                 <div class="nav__menu" id="nav-menu">
                    
@@ -65,6 +73,9 @@
                    
                     
                 </div>
+
+                
+
 
                 <div class="nav__toggle" id="nav-toggle">
                    
