@@ -40,6 +40,35 @@
   box-sizing: border-box;
 }
 
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: var(--first-color);
+	letter-spacing: 2px;
+  font-family: var(--body-font);
+  font-size: 30px;
+  font-weight: 25px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 30px;
+	background-color: var(--first-color);
+	animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: var(--first-color); 
+	}
+}
+
 html {
   scroll-behavior: smooth;
 }
