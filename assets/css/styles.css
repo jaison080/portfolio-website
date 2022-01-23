@@ -544,6 +544,7 @@ body[light-mode=dark] .light-mode-button span:nth-child(2) {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
+    row-gap: 2rem;
   }
  
   .contact__form {
@@ -609,6 +610,7 @@ body[light-mode=dark] .light-mode-button span:nth-child(2) {
   .work__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
+    row-gap: 2rem;
   }
 }
 
