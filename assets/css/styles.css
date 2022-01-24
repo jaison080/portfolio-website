@@ -637,7 +637,7 @@ body[light-mode=dark] .light-mode-button span:nth-child(2) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
-  }
+    }
   .home {
     padding: 10rem 0 2rem;
   }
