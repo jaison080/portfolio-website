@@ -455,6 +455,36 @@ body[light-mode=dark] .light-mode-button span:nth-child(2) {
 .skills__html {
   width: 95%;
 }
+.skills__react{
+width: 75%;
+}
+.skills__node {
+width: 40%;
+}
+.skills__mongo {
+width: 50%;
+}
+.skills__git {
+  width: 95%;
+}
+
+.skills__c {
+  width: 85%;
+}
+
+.skills__cpp {
+  width: 65%;
+}
+
+.skills__java {
+  width: 75%;
+}
+.skills__pp {
+  width: 85%;
+}
+.skills__dvr {
+  width: 85%;
+}
 
 .skills__css {
   width: 85%;
