@@ -270,18 +270,19 @@
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
                 <div class="contact__container bd-grid">
-                    <form name="contact" method="POST" action="https://formspree.io/f/xoqrvbpv">
+                    <div class="alert">Your message has been sent</div>
+                    <form id="contactForm">
                         <p>
-                            <label >Your Name: <input class="contact__input" type="text" name="name" /></label>   
+                            <label >Your Name: <input class="contact__input" type="text" name="name" id="name"/></label>   
                         </p>
                         <p>
-                            <label >Your Email: <input class="contact__input" type="email" name="email" /></label>
+                            <label >Your Email: <input class="contact__input" type="email" name="email" id="email"/></label>
                         </p>
                         <p>
-                            <label>Message: <textarea  class="contact__input" name="message"></textarea></label>
+                            <label>Message: <textarea  class="contact__input" name="message" id="message"></textarea></label>
                         </p>
                         <p>
-                            <button class="contact__button button" type="submit">Send</button>
+                            <button class="contact__button button" type="submit" id="submit">Send</button>
                         </p>
                     </form>
                 </div>
@@ -310,5 +311,7 @@
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
         <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+        <script src="assets/js/app.js"></script>
     </body>
 </html>
